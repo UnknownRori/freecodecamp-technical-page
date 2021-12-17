@@ -1,0 +1,53 @@
+.content {
+    width: 100%;
+
+    .main-section {
+        header {
+            text-align: center;
+        }
+
+        article {
+            margin-left: 1rem;
+            margin-right: 1rem;
+
+            p {
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+            }
+
+            code {
+                border: 0.5px solid gray;
+                padding: 0.5rem;
+                background-color: rgb(182, 182, 182);
+            }
+
+            ul li {
+                margin-top: 0.2rem;
+            }
+
+            table {
+                width: 100%;
+                table-layout: fixed;
+                border: 0.1rem solid $dark;
+                tr td {
+                    text-align: center;
+                    border: 0.1rem solid $dark;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .content {
+        margin-left: 16rem;
+        max-width: 68rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        margin-top: 16rem;
+        position: fixed;
+    }
+}

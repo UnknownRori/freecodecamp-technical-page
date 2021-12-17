@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "sass": "^1.45.0"
+  },
+  "scripts": {
+    "serve": "php -S localhost:8080",
+    "watch": "sass --watch --style=compressed resource/app.scss:public/css/app.css"
+  }
+}
